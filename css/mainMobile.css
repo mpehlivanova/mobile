@@ -1,0 +1,228 @@
+        #fullmain {
+            display: flex;
+            width: 100%;
+            height: 95vh;
+            gap: 20px;
+        }
+        
+        #mainRigth {
+            box-sizing: border-box;
+            /* border: 1px solid #1215d3; */
+            width: 30%;
+            height: 95vh;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 0px;
+            padding-top: 16px;
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #mainLeft {
+            box-sizing: border-box;
+            width: 70%;
+            height: 95vh;
+            min-height: 90vh;
+            /* border: 1px solid #c56132; */
+        }
+        
+        #navigationCar {
+            display: flex;
+        }
+        
+        #surchBord {
+            box-sizing: border-box;
+            border-left: 1px solid #328fc5;
+            border-right: 1px solid #328fc5;
+            border-bottom: 1px solid #328fc5;
+            border-top: 5px solid #328fc5;
+            width: 100%;
+            height: 37vh;
+            display: flex;
+            min-width: 630px;
+        }
+        
+        #surch {
+            box-sizing: border-box;
+            width: 100%;
+            height: 58vh;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            min-width: 630px;
+            min-height: 100%;
+        }
+        
+        #video {
+            box-sizing: border-box;
+            border-left: 1px solid #328fc5;
+            border-right: 1px solid #328fc5;
+            border-bottom: 1px solid #328fc5;
+            border-top: 5px solid #328fc5;
+            height: 30vh;
+            width: 90%;
+        }
+        
+        .imgCar {
+            margin: 8px 8px 2px 0px;
+            opacity: 0.4;
+            height: 20px;
+        }
+        
+        .imgCar:hover {
+            opacity: 1;
+        }
+        
+        .imgCar {
+            cursor: pointer;
+        }
+        
+        #mainLeft h4 {
+            margin: 10px 0px 5px;
+        }
+        
+        div.colorlineMain {
+            box-sizing: border-box;
+            width: 100%;
+            height: 4px;
+            background-color: #328fc5;
+        }
+        
+        div.fullPoster {
+            box-sizing: border-box;
+            width: 100%;
+            height: 300px;
+        }
+        
+        div.rowPster {
+            display: flex;
+            width: 100%;
+            height: 115px;
+            column-gap: 16px;
+            margin-bottom: 25px;
+        }
+        
+        div.onePoster {
+            box-sizing: border-box;
+            display: flex;
+            width: 50%;
+            height: 15vh;
+            gap: 16px;
+            border-bottom: 1px solid rgb(175, 174, 174);
+            align-items: center;
+        }
+        
+        div.photoPosterCar {
+            box-sizing: border-box;
+            width: 45%;
+            height: 115px;
+            /* border-bottom: 2px solid #328fc5; */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-top: 5px;
+            margin-bottom: 3px;
+        }
+        
+        div.informationPosterCar {
+            box-sizing: border-box;
+            width: 50%;
+            height: 110px;
+            /* border: 1px solid #c56132; */
+            background-position: center;
+        }
+        
+        #boldPraisa {
+            font-weight: bold;
+            font-size: large;
+        }
+        
+        #dataAndClock {
+            color: rgb(138, 138, 138);
+        }
+        
+        .informationPosterCar h4 {
+            text-decoration: underline;
+            margin: 10px 0px;
+        }
+        
+        div.allNews {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            /* flex-wrap: wrap; */
+            box-sizing: border-box;
+            width: 100%;
+            height: 20vh;
+            column-gap: 16px;
+            margin: 10px 0px;
+        }
+        
+        div.oneNew {
+            box-sizing: border-box;
+            display: flex;
+            width: 100%;
+            height: 10vh;
+            gap: 10px;
+            border-bottom: 1px solid rgb(175, 174, 174);
+            align-items: center;
+        }
+        
+        div.newPhoto {
+            box-sizing: border-box;
+            width: 30%;
+            height: 82px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        div.newText {
+            box-sizing: border-box;
+            width: 80%;
+            height: 110px;
+            background-position: center;
+            min-width: 131px;
+        }
+        
+        div.newText p {
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+        
+        #photoLink {
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        
+        #mainRigth h4 {
+            margin: 5px 0px 10px;
+        }
+        
+        div.oneNew,
+        div.onePoster {
+            cursor: pointer;
+        }
+        
+        #mainRigth td {
+            padding-bottom: 0px;
+            padding-top: 2px;
+            padding-right: 10px;
+            font-weight: bold;
+        }
+        
+        .surchPositionRight {
+            text-align: right;
+            font-weight: bold;
+        }
+        
+        .surchPositionRight a {
+            font-weight: bold;
+            color: #09f
+        }

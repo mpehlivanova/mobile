@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mobile</title>
+    <link rel="stylesheet" href="css/footerMobile.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/headerMobile.css">
+    <link rel="stylesheet" href="css/mainMobile.css">
+    <link rel="stylesheet" href="css/fon.css">
+    <link rel="stylesheet" href="css/surchBord.css">
+
+    <style>
+        #wrapper {
+            width: 1080px;
+            height: 112vh;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-bottom: 10px;
+            min-height: 110vh;
+            /* border: 1px solid #328fc5; */
+            /* max-width: 980px; */
+        }
+        
+        #header {
+            width: 100%;
+            height: 8vh;
+            border: 1px solid #fafafa;
+            box-sizing: border-box;
+            min-width: 890px;
+        }
+        
+        #main {
+            width: 100%;
+            height: 95vh;
+            /* border: 1px solid #32c557; */
+            box-sizing: border-box;
+            min-width: 980px;
+        }
+        
+        #footer {
+            width: 100%;
+            height: 9vh;
+            box-sizing: border-box;
+            border-top: 1px solid #328fc5;
+            display: flex;
+            flex-direction: column
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class="menuHeader">
+                <img class="logo" src="assets/img/mobile.PNG" alt="logo photo">
+                <h3>Вход</h3>
+                <h3>|</h3>
+                <h3>Нова регистрация</h3>
+                <div class="rightPosition">
+                    <h3 class="edit">Редакция на обявата</h3>
+                    <h3 class="ad">+ ДОБАВИ ОБЯВА</h3>
+                </div>
+            </div>
+        </header>
+        <div id="navigationHeader">
+            <h4>Начало</h4>
+            <h4>Публикуване</h4>
+            <h4>Тъсене</h4>
+            <h4>Нивини</h4>
+            <h4 class="rent"><img class="imagRentAcar" src="assets/img/img-rentAcar.webp" alt="photo">Rent-a-car</h4>
+            <h4>Средни цени</h4>
+            <h4>Дилъри</h4>
+            <h4 id="myAd">Моите обяви</h4>
+
+        </div>
+        <div id="colorLineHeader"></div>
+        <main id="main">
+            <div id="fullmain">
+                <div id="mainLeft">
+                    <div div="navigationCar">
+                        <img class="imgCar" src="assets/img/img-car.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-bus.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-kamion.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-motor.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-traktor.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-industial.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-kari.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-karavan.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-boat.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-remarke.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-bicikle.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-chasti.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-acsessoar.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-gumi.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-pay.gif" alt="photo">
+                        <img class="imgCar" src="assets/img/img-setting.gif" alt="photo">
+                        </ul>
+                    </div>
+                    <h4>Търсене в Автомобили и Джипове</h4>
+                    <div id="surchBord">
+                        <div id="surch">
+                            <form action="">
+                                <label for="cargory"><p><strong>Основна Категория</strong></p></label>
+                                <table class="tableTop">
+                                    <tbody>
+                                        <tr>
+                                        </tr>
+                                        <tr>
+                                            <td><select name="taypeCars" id="taypeCars">
+                            <option value="1">Автомобили и Джипове</option>
+                            <option value="2">Автомобили и Джипове</option>
+                            <option value="3">Бусове</option>
+                            <option value="4">Камиони</option>
+                            <option value="5">Мотоциклети</option>
+                            <option value="6">Селскостопански</option>
+                            <option value="7">Индустриални</option>
+                            <option value="8">Кари</option>
+                            <option value="9">Каравани</option>
+                            <option value="a">Яхти и Лодки</option>
+                            <option value="b">Ремаркета</option>
+                            <option value="s">Велосипеди</option>
+                            <option value="d">Части</option>
+                            <option value="e">Аксесоари</option>
+                            <option value="f">Гуми и джанти</option>
+                            <option value="j">Купува</option>
+                            <option value="h">Услуги</option>
+                                    </select></td>
+                                            <td><img src="assets/img/img-car.gif" alt="photo"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p>&nbsp;</p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div id="table">
+                                    <table id="tableLeft">
+                                        <tbody>
+                                            <tr>
+                                                <td>Марка</td>
+                                                <td>Модел</td>
+
+                                            </tr>
+
+                                            <tr>
+                                                <td><select><option value="a">всички</option></select></td>
+                                                <td><select><option value="a">всички</option></select></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Максимална цена</td>
+                                                <td>Година</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td><input class="inputText" type="text"></td>
+                                                <td><select><option value="a">всички</option></select></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Двигател</td>
+                                                <td>Скоростна кутия</td>
+                                            </tr>
+                                            <tr>
+                                                <td><select><option value="a">всички</option></select></td>
+                                                <td><select><option value="a">всички</option></select></td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+
+                                            <td colspan="3" style="color: red;font-weight: normal;font-size: small;"><input type="checkbox">
+                                                <label for="checkbox"> Нов </label>
+                                                <input type="checkbox">
+                                                <label for="checkbox"> Употребяван </label>
+                                                <input type="checkbox">
+                                                <label for="checkbox"> На части </label>
+                                                </tr>
+                                                <tr>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+
+                                    <table id="tableRight">
+                                        <tbody>
+                                            <tr>
+                                                <td>Регион</td>
+                                                <td>Населено място</td>
+                                            </tr>
+                                            <tr>
+                                                <td><select><option value="a">всички</option></select></td>
+                                                <td><select><option value="a">всички</option></select></td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">Подреди резултатите по</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><label for=""></label>
+                                                    <select style="width: 100%;">всички
+                                                <option value="1">Марка/Модел/Цена</option>
+                                                <option value="2">Цена</option>
+                                                <option value="3">Дата на производство</option>
+                                                <option value="4">Пробег</option>
+                                                <option value="5">Най-нови обяви</option>
+                                                <option value="6">Най-нови обяви от последни 2 дни</option>
+                                            </select></td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><input id="submit" value="ТЪРСИ"></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <td>&nbsp;</td>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td colspan="3" class="surchPositionRight">»
+                                                    <a href="#"> Подробно търсене</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <h4>Най-новите обяви за Автомобили и Джипове</h4>
+                    <div class="colorlineMain"></div>
+                    <div class="fullPoster">
+                        <div class="rowPster">
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola.jpg)"></div>
+                                <div class="informationPosterCar">
+                                    <h4>Audi</h4>
+                                    <h3 id="boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola6.jpg)"></div>
+                                <div class="informationPosterCar">
+                                    <h4>Audi</h4>
+                                    <h3 id="boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="rowPster">
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola2.jpg)"></div>
+                                <div class="informationPosterCar">
+                                    <h4>Audi</h4>
+                                    <h3 id=" boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola3.jpg)"></div>
+                                <div class="informationPosterCar">
+                                    <h4>Audi</h4>
+                                    <h3 id="boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowPster">
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola4.jpg)"></div>
+                                <div class="informationPosterCar ">
+                                    <h4>Audi</h4>
+                                    <h3 id="boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                            <div class="onePoster">
+                                <div class="photoPosterCar" style="background-image: url(./assets/img/kola5.jpg)"></div>
+                                <div class="informationPosterCar">
+                                    <h4>Audi</h4>
+                                    <h3 id="boldPraisa">33 000 лв.</h3>
+                                    <p>273700 км.</p>
+                                    <p>Пловдив</p>
+                                    <p id="dataAndClock">17:20 час на 24.11</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mainRigth">
+                    <div id="photoLink">
+                        <img src="./assets/img/fac.PNG" alt="photoReclama">
+                        <a href="https://fakti.bg/"></a>
+                    </div>
+
+                    <h4>Последни новини от Факти </h4>
+                    <div class="colorlineMain"></div>
+                    <div class="allNews">
+                        <div class="oneNew">
+                            <div class="newPhoto" style="background-image: url(./assets/img/news.PNG)"></div>
+                            <div class="newText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur a </p>
+                            </div>
+                        </div>
+                        <div class="oneNew">
+                            <div class="newPhoto" style="background-image: url(./assets/img/news1.PNG)"></div>
+                            <div class="newText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur a </p>
+                            </div>
+                        </div>
+                        <div class="oneNew">
+                            <div class="newPhoto" style="background-image: url(./assets/img/news2.PNG)"></div>
+                            <div class="newText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur a </p>
+                            </div>
+                        </div>
+                        <div class="oneNew">
+                            <div class="newPhoto" style="background-image: url(./assets/img/news3.PNG)"></div>
+                            <div class="newText">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur a</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </main>
+        <footer id="footer">
+            <div id="footerCategorii">
+                <p>Основни категории в mobile.bg:</p>
+                <a id="categoriaCar" href="#">Автомобили и Джипове</a>
+                <a id="categoriaCar" href="#">Бусове</a>
+                <a id="categoriaCar" href="#">Камиони</a>
+                <a id="categoriaCar" href="#">Мотоциклети</a>
+                <a id="categoriaCar" href="#">Селскостопански</a>
+                <a id="categoriaCar" href="#">Кари</a>
+                <a id="categoriaCar" href="#">Каравани</a>
+                <a id="categoriaCar" href="#">Яхти и Лодки</a>
+                <a id="categoriaCar" href="#">Ремаркета</a>
+                <a id="categoriaCar" href="#">Велосипеди</a>
+                <a id="categoriaCar" href="#">Части</a>
+                <a id="categoriaCar" href="#">Аксесоари</a>
+                <a id="categoriaCar" href="#">Гуми и джанти</a>
+                <a id="categoriaCar" href="#">Купува</a>
+                <a id="categoriaCar" href="#">Услуги</a>
+            </div>
+            <div id="contakti">
+                <a id="categoriaCar" href="#">ЗА КОНТАКТИ |</a>
+                <a id="categoriaCar" href="#">ОБЯВИ |</a>
+                <a id="categoriaCar" href="#"> SMS КОДОВЕ |</a>
+                <a id="categoriaCar" href="#"> ЗА РЕКЛАМА |</a>
+                <a id="categoriaCar" href="#"> ПОМОЩ |</a>
+                <a id="categoriaCar" href="#"> ОБЩИ УСЛОВИЯ |</a>
+                <a id="categoriaCar" href="#"> ТОП ОФЕРТА |</a>
+                <p><a class="positionRight" href="#">Въпроси и предложения към Mobile.bg</a></p>
+            </div>
+            <div id="footerContakti">
+                <a id="categoriaCar" href="#">Резон Медия |</a>
+                <a id="categoriaCar" href="#">Имоти |</a>
+                <a id="categoriaCar" href="#"> Автомобили |</a>
+                <a id="categoriaCar" href="#">  Работа |</a>
+                <a id="categoriaCar" href="#"> Обяви |</a>
+                <a id="categoriaCar" href="#"> Регистрация |</a>
+                <a class="positionRight" href="#">2002-2021 ® Copyright Rezon Ltd.</a>
+            </div>
+        </footer>
+        </div>
+
+</body>
+
+</html>
