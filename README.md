@@ -1,7 +1,6 @@
-![mobile](https://user-images.githubusercontent.com/97164252/160094217-16c04683-80df-49e2-92a4-a7234fe429de.PNG)
 
-
-![mobile1](https://user-images.githubusercontent.com/97164252/160094221-14a79947-e0f3-4900-834e-d76c4ccf9ad6.PNG)
+![mobile](https://user-images.githubusercontent.com/97164252/160094602-9349ea8f-7cfd-4987-989d-a4ea98fa2480.PNG)
+![mobile1](https://user-images.githubusercontent.com/97164252/160094604-6311b460-0ca9-46ac-9e93-57b3e9a3b00d.PNG)
 
 # mobile
 This is the main page of the site mobille.bg created with HTML and CSS
